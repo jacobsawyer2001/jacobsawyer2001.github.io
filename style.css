@@ -21,6 +21,12 @@ nav {
   align-items: center;
 }
 
+.container {
+	/*style added by me*/
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
 .logo h1 {
   color: #fff;
 }
@@ -40,7 +46,9 @@ main {
 }
 
 section {
-  height: 100vh;
+  /*ChatGPT set height = 100vh, but I subtracted 60px and set height = 0*/
+  height: calc(100vh - 60px);
+  bottom: 0;
   padding: 20px;
 }
 
