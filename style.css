@@ -1,74 +1,58 @@
-/* Reset some default styles */
+/* Resetting default margin and padding */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
+  font-family: Arial, sans-serif;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.logo {
-    font-size: 24px;
+.logo h1 {
+  color: #fff;
 }
 
-.nav-buttons button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-left: 10px;
-    cursor: pointer;
+.nav-buttons a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.nav-buttons a:hover {
+  text-decoration: underline;
+}
+
+main {
+  margin-top: 60px; /* Adjust based on your nav height */
 }
 
 section {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  height: 100vh;
+  padding: 20px;
 }
 
+/* Styles for each section */
 #about {
-    background-color: #f2f2f2;
+  background-color: #f0f0f0;
 }
 
-#portfolio {
-    background-color: #ddd;
+#projects {
+  background-color: #e0e0e0;
 }
 
 #contact {
-    background-color: #ccc;
-}
-
-h2 {
-    margin-bottom: 20px;
-}
-
-p {
-    font-size: 18px;
-    line-height: 1.6;
+  background-color: #d0d0d0;
 }
