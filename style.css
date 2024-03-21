@@ -11,7 +11,7 @@ html {
 
 @font-face {
   font-family: 'titleFont';
-  src: url('./PathwayGothicOne-Regular.ttf') format('truetype');
+  src: url('./Montserrat-Regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -50,7 +50,6 @@ nav {
 }
 
 nav .container {
-	/*style added by me*/
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	width: 100%;
@@ -135,12 +134,22 @@ section h3 {
 section img {
   top: 15%;
   width: auto;
-  height: 200px;
+  height: var(--img-height);
 }
 
 section p {
   top: 50%;
   font-size: var(--p-font);
+  line-height: 1.7rem;
+}
+
+.ai-link {
+  background: #fff;
+}
+
+.ai-link:hover {
+  color: #fff;
+  background: #000;
 }
 
 .work, .contact {
@@ -227,6 +236,7 @@ section p {
   --h1-font: 61px;
   --h2-font: 38px;
   --h3-font: 35px;
+  --img-height: 400px;
   --btn-margin: 20px;
   --btn-font: 20px;
   --p-font: 20px;
@@ -244,6 +254,7 @@ section p {
   --h1-font: 45px;
   --h2-font: 26px;
   --h3-font: 29px;
+  --img-height: 270px;
   --btn-margin: 0px;
   --btn-font: 11px;
   --p-font: 16px;
