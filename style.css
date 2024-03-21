@@ -132,7 +132,7 @@ section h3 {
 }
 
 section img {
-  top: 15%;
+  top: 23%;
   width: auto;
   height: var(--img-height);
 }
@@ -145,6 +145,7 @@ section p {
 
 .ai-link {
   background: #fff;
+  color: #000;
 }
 
 .ai-link:hover {
@@ -236,10 +237,10 @@ section p {
   --h1-font: 61px;
   --h2-font: 38px;
   --h3-font: 35px;
-  --img-height: 400px;
+  --img-height: 300px;
   --btn-margin: 20px;
   --btn-font: 20px;
-  --p-font: 20px;
+  --p-font: 18px;
   --coursename-font: 28px;
   --coursedesc-font: 14px;
   --btn-height: 90px;
@@ -254,10 +255,10 @@ section p {
   --h1-font: 45px;
   --h2-font: 26px;
   --h3-font: 29px;
-  --img-height: 270px;
+  --img-height: 200px;
   --btn-margin: 0px;
   --btn-font: 11px;
-  --p-font: 16px;
+  --p-font: 14px;
   --coursename-font: 22px;
   --coursedesc-font: 11px;
   --btn-height: 70px;
