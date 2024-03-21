@@ -52,7 +52,7 @@ nav {
 
 nav .container {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 2fr 3fr; /*changed from 1fr 1fr to resolve mobile issue involving whitespace to the right of the background*/
 	width: 100%;
   position: relative;
   align-items: center; /*centers "Jacob Sawyer Portfolio" vertically*/
@@ -222,6 +222,7 @@ section p {
 .contact a {
   width: 70%;
   margin: 1rem;
+  text-decoration: none;
 }
 
 .contact div {
