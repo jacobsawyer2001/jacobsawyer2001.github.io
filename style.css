@@ -94,7 +94,7 @@ nav .container {
 }
 
 main {
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
 
 }
@@ -122,7 +122,7 @@ section h1 {
 }
 
 section h2 {
-  top: 11%;
+  top: 13%;
   font-size: var(--h2-font);
 }
 
@@ -132,13 +132,13 @@ section h3 {
 }
 
 section img {
-  top: 23%;
+  top: 30%;
   width: auto;
   height: var(--img-height);
 }
 
 section p {
-  top: 50%;
+  top: 60%;
   font-size: var(--p-font);
   line-height: 1.7rem;
 }
@@ -240,12 +240,12 @@ section p {
   --img-height: 300px;
   --btn-margin: 20px;
   --btn-font: 20px;
-  --p-font: 18px;
-  --coursename-font: 28px;
-  --coursedesc-font: 14px;
-  --btn-height: 90px;
-  --btn-lineheight: 45px;
-  --btn-top: 58%;
+  --p-font: 16px;
+  --coursename-font: 18px;
+  --coursedesc-font: 11px;
+  --btn-height: 60px;
+  --btn-lineheight: 30px;
+  --btn-top: 68%;
   }
 }
 @media (max-width: 600px) {
@@ -258,11 +258,11 @@ section p {
   --img-height: 200px;
   --btn-margin: 0px;
   --btn-font: 11px;
-  --p-font: 14px;
-  --coursename-font: 22px;
-  --coursedesc-font: 11px;
-  --btn-height: 70px;
-  --btn-lineheight: 35px;
-  --btn-top: 60%;
+  --p-font: 13px;
+  --coursename-font: 15px;
+  --coursedesc-font: 9px;
+  --btn-height: 48px;
+  --btn-lineheight: 24px;
+  --btn-top: 70%;
   }
 }
