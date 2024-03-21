@@ -1,5 +1,8 @@
+/* Resetting default margin and padding */
 * {
-  scroll-behavior: smooth;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -236,13 +239,13 @@ section p {
   --img-top: 36%;
   --btn-margin: 20px;
   --btn-font: 20px;
-  --btn-top: 68%;
+  --btn-top: 72%;
   --p-font: 16px;
   --p-top: 60%;
   --coursename-font: 18px;
   --coursedesc-font: 11px;
   --btn-height: 60px;
-  --btn-lineheight: 20px;
+  --btn-lineheight: 15px;
   }
 }
 @media (max-width: 600px) {
@@ -255,7 +258,7 @@ section p {
   --img-top: 28%;
   --btn-margin: 0px;
   --btn-font: 11px;
-  --btn-top: 65%;
+  --btn-top: 68%;
   --p-font: 11px;
   --p-top: 47%;
   --coursename-font: 15px;
