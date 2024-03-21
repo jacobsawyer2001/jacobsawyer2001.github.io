@@ -30,7 +30,7 @@ html {
 body {
   /*ChatGPT generated*/
   background-image: var(--bkgd); 
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed; /* Locks the background */
