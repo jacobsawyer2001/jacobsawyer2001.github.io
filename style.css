@@ -1,12 +1,9 @@
-/* Resetting default margin and padding */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-html {
-  scroll-behavior: smooth;
+body {
+  margin: 0 auto;
 }
 
 @font-face {
