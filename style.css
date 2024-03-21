@@ -7,7 +7,8 @@
 }
 
 body {
- min-width: 420px;  /*attempt to fix issue involving mobile webpage loading zoomed-in then whitespace appearing on right when zooming out*/
+ /*min-width: 420px; was an attempt to fix issue involving mobile webpage loading zoomed-in then whitespace appearing on right when zooming out*/
+	/*but setting this value actually created even more whitespace*/
 }
 
 @font-face {
@@ -37,8 +38,8 @@ body {
   /*copied from a MIS 310 project. ChatGPT generated background-attachment: fixed but that does not work on mobile*/
   /*you need to put the background in a div and set the position to fixed*/
   position: fixed;
-  height: 100vh;
-  width: 100vw;
+  height: 100%; 
+  width: 100%;
 }
 
 nav {
