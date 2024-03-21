@@ -127,7 +127,7 @@ section h3 {
 }
 
 section img {
-  top: 34%;
+  top: var(--img-top);
   width: auto;
   height: var(--img-height);
 }
@@ -233,6 +233,7 @@ section p {
   --h2-font: 38px;
   --h3-font: 35px;
   --img-height: 300px;
+  --img-top: 36%;
   --btn-margin: 20px;
   --btn-font: 20px;
   --p-font: 16px;
@@ -251,6 +252,7 @@ section p {
   --h2-font: 26px;
   --h3-font: 29px;
   --img-height: 300px;
+  --img-top: 34%;
   --btn-margin: 0px;
   --btn-font: 11px;
   --p-font: 13px;
