@@ -134,8 +134,8 @@ section h3 {
 
 section img {
   top: 15%;
-  width: 100px;
-  height: 100px;
+  width: auto;
+  height: 200px;
 }
 
 section p {
