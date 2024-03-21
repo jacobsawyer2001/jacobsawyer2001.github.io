@@ -7,22 +7,16 @@
 
 html {
   scroll-behavior: smooth;
-  /*ChatGPT generated*/
-  background-image: var(--bkgd); 
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed; /* Locks the background */
 }
 
 @font-face {
   font-family: 'titleFont';
-  src: url('PathwayGothicOne-Regular.ttf.ttf') format('truetype');
+  src: url('./PathwayGothicOne-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'bodyFont';
-  src: url('Montserrat-Regular.ttf');
+  src: url('./Merriweather-Regular.ttf');
 }
 
 .titleFont {
@@ -34,7 +28,12 @@ html {
 }
 
 body {
-  background-color: rgba(255,255,255,0);
+  /*ChatGPT generated*/
+  background-image: var(--bkgd); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /* Locks the background */
 }
 
 nav {
