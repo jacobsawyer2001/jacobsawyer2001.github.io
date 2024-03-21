@@ -249,6 +249,9 @@ section p {
   }
 }
 @media (max-width: 600px) {
+   html,body { 
+	overflow-x: hidden;
+   }
    :root{
   --bkgd: url('bkgd2.jpg');
   --logo-font: 18px;
