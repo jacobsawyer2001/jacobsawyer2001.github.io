@@ -133,7 +133,7 @@ section img {
 }
 
 section p {
-  top: 60%;
+  top: var(--p-top);
   font-size: var(--p-font);
   line-height: 1.7rem;
 }
@@ -235,12 +235,13 @@ section p {
   --img-top: 36%;
   --btn-margin: 20px;
   --btn-font: 20px;
+  --btn-top: 68%;
   --p-font: 16px;
+  --p-top: 60%;
   --coursename-font: 18px;
   --coursedesc-font: 11px;
   --btn-height: 60px;
   --btn-lineheight: 30px;
-  --btn-top: 68%;
   }
 }
 @media (max-width: 600px) {
@@ -249,15 +250,16 @@ section p {
   --logo-font: 18px;
   --h1-font: 45px;
   --h3-font: 23px;
-  --img-height: 200px;
-  --img-top: 34%;
+  --img-height: 220px;
+  --img-top: 28%;
   --btn-margin: 0px;
   --btn-font: 11px;
-  --p-font: 10px;
+  --btn-top: 65%;
+  --p-font: 12px;
+  --p-top: 50%;
   --coursename-font: 15px;
   --coursedesc-font: 9px;
   --btn-height: 48px;
   --btn-lineheight: 24px;
-  --btn-top: 65%;
   }
 }
