@@ -245,7 +245,7 @@ section p {
   --coursename-font: 18px;
   --coursedesc-font: 11px;
   --btn-height: 60px;
-  --btn-lineheight: 15px;
+  --btn-lineheight: 30px;
   }
 }
 @media (max-width: 600px) {
@@ -264,6 +264,6 @@ section p {
   --coursename-font: 15px;
   --coursedesc-font: 9px;
   --btn-height: 48px;
-  --btn-lineheight: 16px;
+  --btn-lineheight: 24px;
   }
 }
