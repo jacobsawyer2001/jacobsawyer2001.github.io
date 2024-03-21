@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 @font-face {
@@ -94,7 +95,7 @@ nav .container {
 }
 
 main {
-  max-width: 800px;
+  max-width: 900px; /*changed from 800 to 900 to troubleshoot mobile issue involving the wallpaper and white space*/
   margin: 0 auto;
 
 }
@@ -237,7 +238,7 @@ section p {
   --img-top: 36%;
   --btn-margin: 20px;
   --btn-font: 20px;
-  --btn-top: 72%;
+  --btn-top: 62%;
   --p-font: 16px;
   --p-top: 60%;
   --coursename-font: 18px;
@@ -256,7 +257,7 @@ section p {
   --img-top: 28%;
   --btn-margin: 0px;
   --btn-font: 11px;
-  --btn-top: 68%;
+  --btn-top: 60%;
   --p-font: 11px;
   --p-top: 47%;
   --coursename-font: 15px;
