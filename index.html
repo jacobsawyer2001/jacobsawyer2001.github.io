@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"> 
+      <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"> 
 </head>
 <body>
 
     <header>
         <nav>
             <div class="container">
-                <h1 class="logo">My Portfolio</h1>
+                <h1 class="logo">Jacob Sawyer Portfolio</h1>
                 <div class="nav-buttons">
                     <a href='#about'><button>About</button></a>
                     <a href='#portfolio'><button>Portfolio</button></a>
@@ -20,27 +24,68 @@
             </div>
         </nav>
     </header>
+    <main>
+        <section>
+            <h1 class='titleFont'>Howdy. Jacob here.</h1>
+            <h3 class='bodyFont'>I've designed a thing or two because I've learned a thing or two.</h3>
+        </section>
+        <section id="about">  
+            <h2 class='titleFont'>About Me</h2>
+            <img src="./headshot.jpg" alt="Professional Headshot"/>
+            <p class='bodyfont'>I am an Information Technology major at the University of North Carolina at Wilmington graduating in May 2024. The Internet and its evolution have always fascinated me, and I enjoy learning about how websites operate under the hood. Outside of class, I troubleshoot simple issues for other students and faculty at UNCW's Technology Assistance Center and work at the Harris Teeter grocery store. These jobs have helped me refine my soft skills and prepare to integrate them with my technical skills at a full-time tech job.</p>
+        </section>
 
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p></p>
-        </div>
-    </section>
+        <section id="portfolio">
+            <h2 class='titleFont'>My Portfolio</h2>
+            <img src="./collageOfMyWork.jpg" alt="Collage of my Work">
+            <p class='bodyFont'>Check out some of my awesome projects! Each link represents a course; click one to view all my work for that course.</p>
+            <div class="work">
+                <a class="mis310" href="mis310/index.html" target="_blank">
+                    <div>
+                        <p class='coursename titleFont'>MIS 310</p>
+                        <p class='coursedesc bodyFont'>HTML/CSS</p>
+                    </div>
+                </a>
+                <a class="mis411" href="mis411/index.html" target="_blank">
+                    <div>
+                        <p class='coursename titleFont'>MIS 411</p>
+                        <p class='coursedesc bodyFont'>UI/UX</p>
+                    </div>
+                </a>
+                <a class="cit425" href="cit425/index.html" target="_blank">
+                    <div>
+                        <p class='coursename titleFont'>CIT 425</p>
+                        <p class='coursedesc bodyFont'>Interfaces</p>
+                    </div>
+                </a>
+                <a class="mis316" href="mis316/default.aspx" target="_blank">
+                    <div>
+                        <p class='coursename titleFont'>MIS 316</p>
+                        <p class='coursedesc bodyFont'>C#</p>
+                    </div>
+                </a>
+            </div>
+        </section>
 
-    <section id="portfolio">
-        <div class="container">
-            <h2>My Portfolio</h2>
-            <p>Check out some of my awesome projects!</p>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <p>Feel free to get in touch with me!</p>
-        </div>
-    </section>
-
+        <section id="contact">
+            <h2 class='titleFont'>Contact Me</h2>
+            <img src='email.jpg' alt='Generic Email Image'>
+            <p class='bodyFont'>Feel free to get in touch with me!</p>
+            <div class="contact">
+                <a href="mailto:jacobsawyer2001@gmail.com" target="_blank"><div class='email'>
+                    <p class='titleFont'>Email: jacobsawyer2001@gmail.com</p>
+                </div></a>
+                <a href="tel:9109029696" target="_blank"><div class='phone'>
+                     <p class='titleFont'>Phone: +1 (910) 902-9696</p>
+                </div></a>
+                <a href="www.linkedin.com/in/jacobsawyertroubleshooting" target="_blank"><div class='linkedin'>
+                    <p class='titleFont'>LinkedIn<p>
+                </div></a>
+                <a href="#" target="_blank"><div class='resume'>
+                    <p class='titleFont'>My Resume</p>
+                </div></a>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
