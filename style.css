@@ -6,6 +6,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+ min-width: 420px;  /*attempt to fix issue involving mobile webpage loading zoomed-in then whitespace appearing on right when zooming out*/
+}
+
 @font-face {
   font-family: 'titleFont';
   src: url('./Montserrat-Regular.ttf') format('truetype');
@@ -52,7 +56,7 @@ nav {
 
 nav .container {
 	display: grid;
-	grid-template-columns: 2fr 3fr; /*changed from 1fr 1fr to resolve mobile issue involving whitespace to the right of the background*/
+	grid-template-columns: 2fr 3fr; /*changed from 1fr 1fr to resolve mobile issue involving whitespace to the right of the background, but did not work*/
 	width: 100%;
   position: relative;
   align-items: center; /*centers "Jacob Sawyer Portfolio" vertically*/
