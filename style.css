@@ -230,7 +230,6 @@ section p {
   --bkgd: url('bkgd1.jpg');
   --logo-font: 26px;
   --h1-font: 61px;
-  --h2-font: 38px;
   --h3-font: 35px;
   --img-height: 300px;
   --img-top: 36%;
@@ -249,17 +248,16 @@ section p {
   --bkgd: url('bkgd2.jpg');
   --logo-font: 18px;
   --h1-font: 45px;
-  --h2-font: 26px;
-  --h3-font: 29px;
-  --img-height: 300px;
+  --h3-font: 23px;
+  --img-height: 200px;
   --img-top: 34%;
   --btn-margin: 0px;
   --btn-font: 11px;
-  --p-font: 13px;
+  --p-font: 10px;
   --coursename-font: 15px;
   --coursedesc-font: 9px;
   --btn-height: 48px;
   --btn-lineheight: 24px;
-  --btn-top: 70%;
+  --btn-top: 65%;
   }
 }
