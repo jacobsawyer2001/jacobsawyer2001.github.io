@@ -27,13 +27,17 @@ html {
   font-family: bodyFont;
 }
 
-body {
+.bg {
   /*ChatGPT generated*/
   background-image: var(--bkgd); 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed; /* Locks the background */
+  /*copied from a MIS 310 project. ChatGPT generated background-attachment: fixed but that does not work on mobile*/
+  /*you need to put the background in a div and set the position to fixed*/
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
 }
 
 nav {
