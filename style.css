@@ -121,18 +121,13 @@ section h1 {
   font-size: var(--h1-font);
 }
 
-section h2 {
-  top: 13%;
-  font-size: var(--h2-font);
-}
-
 section h3 {
   top: 68%;
   font-size: var(--h3-font);
 }
 
 section img {
-  top: 30%;
+  top: 40%;
   width: auto;
   height: var(--img-height);
 }
@@ -255,7 +250,7 @@ section p {
   --h1-font: 45px;
   --h2-font: 26px;
   --h3-font: 29px;
-  --img-height: 200px;
+  --img-height: 300px;
   --btn-margin: 0px;
   --btn-font: 11px;
   --p-font: 13px;
