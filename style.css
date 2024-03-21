@@ -99,9 +99,6 @@ main {
   max-width: 800px; /*changed from 800 to 900 to troubleshoot mobile issue involving the wallpaper and white space*/
  /*however the main width wasn't the problem, it seems to be the background image itself*/
   margin: 0 auto;
-  position: relative;
-  transform: translateX(-50%);
-  left: 50%;
 }
 
 section {
