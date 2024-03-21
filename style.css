@@ -37,14 +37,6 @@ body {
   background-color: rgba(255,255,255,0);
 }
 
-.font1 {
-  font-family: font1;
-}
-
-.font2 {
-  font-family: font2;
-}
-
 nav {
   position: fixed;
   top: 0;
@@ -143,6 +135,8 @@ section h3 {
 
 section img {
   top: 15%;
+  width: 100px;
+  height: 100px;
 }
 
 section p {
