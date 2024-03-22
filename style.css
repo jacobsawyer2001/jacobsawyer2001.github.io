@@ -245,7 +245,7 @@ section p {
 
 .subportfolio a {
 	width: 50%;
-	margin: 2rem;
+	margin: 1rem;
 	height: var(--btn-height);
 }
 
@@ -254,7 +254,7 @@ section p {
 }
 
 .subportfolio p {
-	font-size: var(--nav-font);
+	font-size: var(--portfolio-btn-font);
 }
 
 /*conditional width styles*/
@@ -276,6 +276,7 @@ section p {
   --coursedesc-font: 11px;
   --btn-height: 60px;
   --btn-lineheight: 30px;
+  --portfolio-btn-font: 25px;
   }
 }
 @media (max-width: 600px) {
@@ -296,5 +297,6 @@ section p {
   --coursedesc-font: 9px;
   --btn-height: 48px;
   --btn-lineheight: 24px;
+  --portfolio-btn-font: 19px;
   }
 }
