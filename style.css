@@ -252,6 +252,7 @@ section p {
 .subportfolio a {
 	margin: 1rem;
 	height: var(--btn-height);
+	text-decoration: none;
 }
 
 .subportfolio div {
