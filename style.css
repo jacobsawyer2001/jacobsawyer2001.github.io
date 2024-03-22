@@ -247,13 +247,14 @@ section p {
 	width: 50%;
 	margin: 2rem;
 	height: var(--btn-height);
-    margin: 1rem; 
+
+.subportfolio div {
 	border-radius: 50px;
 }
 
 .subportfolio p {
 	padding: 2rem;
-	font-size: var(--h3-font);
+	font-size: var(--nav-font);
 }
 
 /*conditional width styles*/
