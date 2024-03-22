@@ -179,7 +179,7 @@ section p {
   top: 50%;
 }
 
-.work *, .contact * {
+.work *, .contact *, .subportfolio * {
   position: static !important;
 }
 
