@@ -47,8 +47,8 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #03aa33;
   padding: 10px 20px;
+  background-color: rgb(146, 53, 222);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -237,7 +237,7 @@ section p {
 .subportfolio {
   display: flex;
   flex-wrap: wrap;
-  top: 30%;
+  top: 21%;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -245,16 +245,16 @@ section p {
 
 .subportfolio a {
 	width: 50%;
-	margin: 2rem;
+	margin: 1rem;
 	height: var(--btn-height);
+}
 
 .subportfolio div {
 	border-radius: 50px;
 }
 
 .subportfolio p {
-	padding: 2rem;
-	font-size: var(--nav-font);
+	font-size: var(--portfolio-btn-font);
 }
 
 /*conditional width styles*/
@@ -276,6 +276,7 @@ section p {
   --coursedesc-font: 11px;
   --btn-height: 60px;
   --btn-lineheight: 30px;
+  --portfolio-btn-font: 25px;
   }
 }
 @media (max-width: 600px) {
@@ -296,5 +297,6 @@ section p {
   --coursedesc-font: 9px;
   --btn-height: 48px;
   --btn-lineheight: 24px;
+  --portfolio-btn-font: 19px;
   }
 }
