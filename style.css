@@ -252,11 +252,6 @@ section p {
 	border-radius: 50px;
 }
 
-.subportfolio p {
-	font-size: var(--portfolio-btn-font);
-	padding: 1rem;
-  }
-
 /*conditional width styles*/
 @media (min-width: 601px) {
   :root{
@@ -276,11 +271,15 @@ section p {
   --coursedesc-font: 11px;
   --btn-height: 60px;
   --btn-lineheight: 30px;
-  --portfolio-btn-font: 25px;
   }
   
   .subportfolio a {
 	  width: 50%;
+  }
+  
+  .subportfolio p {
+	font-size: 25px;
+	padding: 1rem;
   }
   
 }
@@ -302,11 +301,14 @@ section p {
   --coursedesc-font: 9px;
   --btn-height: 48px;
   --btn-lineheight: 24px;
-  --portfolio-btn-font: 10px;
   }
   
   .subportfolio a {
 	  width: 80%;
   }
   
+  .subportfolio p {
+	font-size: 12px;
+	padding: .5rem;
+  }
 }
