@@ -246,6 +246,7 @@ section p {
 .subportfolio a {
 	width: 70%;
 	margin: 2rem;
+	padding: 5rem;
 	height: var(--btn-height);
     margin: 1rem; 
 	border-radius: 50px;
