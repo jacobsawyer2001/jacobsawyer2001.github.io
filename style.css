@@ -255,6 +255,7 @@ section p {
 
 .subportfolio p {
 	font-size: var(--portfolio-btn-font);
+	padding: 1rem;
 }
 
 /*conditional width styles*/
