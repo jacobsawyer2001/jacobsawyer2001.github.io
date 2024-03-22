@@ -244,12 +244,16 @@ section p {
 }
 
 .subportfolio a {
-	width: 70%;
+	width: 50%;
 	margin: 2rem;
-	padding: 5rem;
 	height: var(--btn-height);
     margin: 1rem; 
 	border-radius: 50px;
+}
+
+.subportfolio p {
+	padding: 2rem;
+	font-size: var(--h3-font);
 }
 
 /*conditional width styles*/
