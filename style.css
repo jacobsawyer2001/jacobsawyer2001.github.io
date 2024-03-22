@@ -166,7 +166,7 @@ section p {
 
 .work a {
   text-decoration: none;
-  width: 40%;
+  width: 38%;
   height: var(--btn-height);
   margin: 1rem;
   border-radius: 50px;
@@ -302,7 +302,7 @@ section p {
   --coursedesc-font: 9px;
   --btn-height: 48px;
   --btn-lineheight: 24px;
-  --portfolio-btn-font: 19px;
+  --portfolio-btn-font: 10px;
   }
   
   .subportfolio a {
