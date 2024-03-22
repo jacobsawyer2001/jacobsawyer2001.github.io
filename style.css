@@ -244,7 +244,6 @@ section p {
 }
 
 .subportfolio a {
-	width: 50%;
 	margin: 1rem;
 	height: var(--btn-height);
 }
@@ -256,7 +255,7 @@ section p {
 .subportfolio p {
 	font-size: var(--portfolio-btn-font);
 	padding: 1rem;
-}
+  }
 
 /*conditional width styles*/
 @media (min-width: 601px) {
@@ -279,6 +278,11 @@ section p {
   --btn-lineheight: 30px;
   --portfolio-btn-font: 25px;
   }
+  
+  .subportfolio a {
+	  width: 50%;
+  }
+  
 }
 @media (max-width: 600px) {
    :root{
@@ -300,4 +304,9 @@ section p {
   --btn-lineheight: 24px;
   --portfolio-btn-font: 19px;
   }
+  
+  .subportfolio a {
+	  width: 80%;
+  }
+  
 }
