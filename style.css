@@ -172,7 +172,7 @@ section p {
   border-radius: 50px;
 }
 
-.work div p, .contact div p {
+.work div p, .contact div p, .portfolio div p {
   text-align: center;
   line-height: var(--btn-lineheight);
   vertical-align: middle;
@@ -232,6 +232,22 @@ section p {
 
 .contact div {
   border-radius: 19px;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  top: 30%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+.portfolio a {
+	width: 70%;
+	margin: 2rem;
+	height: var(--btn-height);
+    margin: 1rem; 
+	border-radius: 50px;
 }
 
 /*conditional width styles*/
