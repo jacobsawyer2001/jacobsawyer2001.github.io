@@ -287,7 +287,7 @@ section p {
    :root{
   --bkgd: url('bkgd2.jpg');
   --logo-font: 13px;
-  --nav-font: 8px;
+  --nav-font: 10px;
   --nav-padding: 4px;
   --h1-font: 45px;
   --h3-font: 23px;
