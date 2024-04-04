@@ -261,7 +261,8 @@ section p {
 
 .note {
 	position: absolute;
-	bottom: 70%;
+	top: 90%;
+	color: #fff;
 }
 
 /*conditional width styles*/
