@@ -117,7 +117,7 @@ section * {
   color: #fff;
 }
 
-section h1, section h3, section img, .navText {
+section h1, section h3, section img {
   left: 50%;
   transform: translate(-50%, -50%); /* ChatGPT Centering trick */
   text-align: center;
@@ -145,11 +145,7 @@ section img {
   height: var(--img-height);
 }
 
-.navText {
-   position: absolute;
-}
-
-section p, .navText {
+section p {
   top: var(--p-top);
   line-height: 1.7rem;
   font-size: var(--p-font);
