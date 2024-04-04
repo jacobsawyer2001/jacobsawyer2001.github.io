@@ -145,10 +145,14 @@ section img {
   height: var(--img-height);
 }
 
-section p {
+.navText {
+   position: absolute;
+}
+
+section p, .navText {
   top: var(--p-top);
-  font-size: var(--p-font);
   line-height: 1.7rem;
+  font-size: var(--p-font);
 }
 
 .ai-link {
@@ -238,12 +242,6 @@ section p {
 
 .contact div {
   border-radius: 19px;
-}
-
-.navText {
-  position: fixed;
-  top: 17%;
-  font-size: var(--h3-font);
 }
 
 .subportfolio {
