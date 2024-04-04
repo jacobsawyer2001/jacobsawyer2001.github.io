@@ -260,6 +260,7 @@ section p {
 }
 
 .note {
+	position: absolute;
 	bottom: 70%;
 }
 
@@ -289,7 +290,7 @@ section p {
   }
   
   .subportfolio p {
-	font-size: 25px;
+	font-size: 21px;
 	padding: 1rem;
   }
   
