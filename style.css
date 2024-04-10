@@ -99,9 +99,12 @@ nav .container {
   background-color: #fff;
 }
 
-.navLink:hover {
+.navLink:hover h1 {
      color: rgb(146, 53, 222);
-    background-color: #000;
+}
+
+.navLink:hover {
+     background-color: #000;
 }
 
 main {
