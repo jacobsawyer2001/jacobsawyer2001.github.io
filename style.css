@@ -99,6 +99,11 @@ nav .container {
   background-color: #fff;
 }
 
+.navLink:hover {
+     color: rgb(146, 53, 222);
+    background-color: #000;
+}
+
 main {
   width: 100%;
   max-width: 800px; /*changed from 800 to 900 to troubleshoot mobile issue involving the wallpaper and white space*/
