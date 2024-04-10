@@ -3,6 +3,18 @@
   box-sizing: border-box;
 }
 
+.bg {
+  /*ChatGPT generated. Added April 10, 2024*/
+  background-image: var(--bkgd); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*copied from a MIS 310 project. ChatGPT generated background-attachment: fixed but that does not work on mobile*/
+  /*you need to put the background in a div and set the position to fixed*/
+  position: fixed;
+  height: 100%; /*changed from 100vh and 100vw to get my wallpaper to work fully on mobile*/
+  width: 100%;
+
 header {
   width: 100%;
   display: grid;
@@ -55,8 +67,7 @@ nav a:hover {
 }
 
 main {
-  background-image: var(--bkgd);
-  background-size: 100%;
+
   text-align: center;
   font-family: Quicksand;
   margin-top: var(--main-margin);
