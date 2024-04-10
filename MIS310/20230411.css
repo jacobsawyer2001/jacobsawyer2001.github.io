@@ -14,6 +14,7 @@
   position: fixed;
   height: 100%; /*changed from 100vh and 100vw to get my wallpaper to work fully on mobile*/
   width: 100%;
+}
 
 header {
   width: 100%;
