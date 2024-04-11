@@ -273,6 +273,9 @@ section p {
 	color: #fff;
 }
 
+.strong {
+	font-weight: 800;
+}
 /*conditional width styles*/
 @media (min-width: 601px) {
   :root{
@@ -331,5 +334,9 @@ section p {
   .subportfolio p {
 	font-size: 13px;
 	padding: .5rem;
+  }
+  
+  .note {
+	  width: 90%;
   }
 }
